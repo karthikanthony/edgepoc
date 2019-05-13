@@ -35,10 +35,10 @@ public class ClientsController {
     public List<Account> getAccounts(@PathVariable("clientId") Long clientId)
     {
         Account account = new Account();
-       // account.setClientId(clientId);
+        account.setClientId(clientId);
 
         Example<Account> accountExample = Example.of(account);
-        Iterable<Account> accounts = accountRepository.findAll();
+        Iterable<Account> accounts = accountRepository.findAll(accountExample);
 
         return (List<Account>) accounts;
     }

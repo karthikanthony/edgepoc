@@ -16,6 +16,17 @@ public class Account {
     private Date openDate;
     private String displayName;
 
+    public Long getClientId() {
+        return clientId;
+    }
+
+    public void setClientId(Long clientId) {
+        this.clientId = clientId;
+    }
+
+    private Long clientId;
+
+
     public String getNumber() {
         return number;
     }
