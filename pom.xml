@@ -60,7 +60,7 @@
 
                     <!-- Web App information -->
                     <resourceGroup>pnc_resource_group</resourceGroup>
-                    <appName>api_edge</appName>
+                    <appName>api-edge</appName>
                     <region>East US</region>
 
                     <!-- Java Runtime Stack for Web App on Linux-->
